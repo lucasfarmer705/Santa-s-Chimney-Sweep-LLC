@@ -1,0 +1,365 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(204, 0, 0);
+    padding: 20px;
+    border-color: white;
+    border-style: solid;
+    border-bottom: 100px;
+    border: none;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.333);
+    position: relative;
+    width: lh;
+
+}
+
+ul img {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 20px;
+}
+
+nav {
+    background-color: rgba(0, 255, 255, 0);
+}
+
+ul {
+    background-color: rgba(255, 235, 205, 0);
+    display: flex; 
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+
+}
+
+li {
+    padding-right: 40px;
+    color: white;
+    font-size: 1.3rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    top: -110px;
+    display: none;
+}
+
+
+.image-header {
+    height: 400px;
+    background-image: url(img/Santaimgheaderbrick.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 20px;
+}
+
+.image-header div {
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 750px;
+}
+
+.image-header img {
+    max-width: 100%;
+    height: 100%;
+    width: 700px;
+    border-radius: 10px;
+    background-color: rgba(81, 106, 127, 0);
+}
+
+#sec1-header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #595959;
+}
+
+#sec1 {
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+#sec1-container {
+    padding: 20px;
+    background-color: rgba(23, 133, 93, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    row-gap: 30px;
+    width: 70%;
+}
+
+
+#sec1-div {
+    box-shadow: 5px 5px 20px rgb(192, 192, 192);
+    height: 100%;
+    width: 300px;
+    padding: 30px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec1 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(239, 239, 239, 0);
+}
+
+#sec1 li {
+    color: black;
+    padding-bottom: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+#sec2-header {
+    padding: 20px;
+    background-color: #004101;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#sec2 {
+    background-color: #004101;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+#sec2 img {
+    max-width: 100%;
+    height: 100%;
+    width: 600px;
+    border-radius: 10px;
+}
+
+#sec2 div {
+    height: 100%;
+    width: 500px;
+    background-color: rgba(255, 228, 196, 0);
+    font-size: 1rem;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+.sec3-header {
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    color: #595959;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: none;
+
+}
+
+.sec3 {
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    display: none;
+}
+
+.sec3 div {
+    height: 100%;
+    width: 300px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    line-height: 25px;
+    padding: 30px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    box-shadow: 5px 5px 20px rgb(208, 208, 208);
+}
+
+.sec4 {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(245, 245, 245);
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.sec4 div {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    color: #595959;
+    font-size: 1.3rem;
+}
+
+#sec5 {
+    padding: 100px;
+    background-color: rgb(204, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+
+}
+
+#sec5 div {
+    height: 100%;
+    width: 600px;
+    background-color: rgba(127, 255, 212, 0.505);
+}
+
+#sec5 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#sec5 img {
+    height: 70px;
+    width: 550px;
+}
+
+footer {
+    background-color: black;
+    padding: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+
+}
+
+@media (max-width: 700px) {
+    #sec5 img {
+        height: 30px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        display: none;
+    }
+
+    .image-header {
+        height: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #sec1-header {
+        padding: 0px;
+        height: 50px;
+        top: 0;
+        font-size: 1.2rem;
+    }
+
+    #sec1 {
+        padding: 0px;
+        margin: 0px;
+    }
+    #sec1-div {
+        padding: 0px;
+        margin: 0px;
+        width: 70%;
+    }
+
+    #sec1-container {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+
+    
+}
